@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+        <button type ="button" onclick="mult(10)">Click Me!</button>
+       
+        <p id="result"></p>
+        <script>
+            
+            function mult(a,b)
+            {
+               if (b=== undefined) 
+               {
+                alert("b is undefined!");
+                var b=20;
+               }
+               
+               var mul = a*b;
+    
+            document.getElementById("result").innerHTML = mul;
+            }
+        </script>
+    </body>
+</html>
+
